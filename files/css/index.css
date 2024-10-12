@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #ffe0ef;
+}
+
+aside {
+  margin: 60px 60px 60px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  justify-content: left;
+  /* height: calc(100vh - 160px); */
+}
+
+aside p {
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffa3d1;
+  color: #fff;
+}
+
+aside ul {
+  padding-left: 0;
+}
+
+aside ul li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.right-box {
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 980px;
+  width: 100%;
+  padding: 0;
+  font-family: "M PLUS Rounded 1c", cursive;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  height: 60px;
+  top: 0;
+}
+
+header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-weight: bold;
+  background: #ffa3d1;
+  border-radius: 0px 0px 50px 50px;
+  
+}
+
+header ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  border-radius: 0px 0px 50px 50px;
+}
+
+header ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 24px;
+  font-family: "M PLUS Rounded 1c", cursive;
+  transition: 0.3s;
+  border-radius: 0px 0px 50px 50px;
+}
+
+header ul li a:hover {
+  font-size: 28px;
+  height: 100%;
+  width: 100%;
+  background: #ff7fbf;
+}
+
+.icon {
+  padding: 20px;
+  vertical-align: top; /* img下の余白削除 */
+  height: 200px;
+  text-align: center;
+}
+
+article {
+  border-radius: 50px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 28px;
+  /* height: calc(100vh - 360px); */
+}
+
+article p {
+  display: table;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+}
+
+.intro {
+  /* display: flex;
+  flex-direction: column; */
+}
+.intro div {
+  padding: 40px;
+}
+
+.intro div p {
+
+}
+
+h1 {
+  border-radius: 50px 50px 0px 0px;
+  background: #ffa3d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin: 0;
+  color: #fff;
+  font-size: 36px;
+}
+
+article img {
+  height: calc(100vh - 540px);
+  max-height: 400px;
+  min-height: 150px;
+  padding: 0;
+  margin: 40px 40px 0 40px;
+  vertical-align: top;
+}
+
+footer {
+  height: 60px;
+  font-size: 20px;
+  font-family: Yu Gothic;
+}
+footer p {
+  /* margin: 20px 0 0 0; */
+  margin: 0;
+}
